@@ -1,0 +1,13 @@
+@import "variables";
+.divNovedades {
+    display: grid;
+    justify-content: center;
+    .imagenNovedades {
+        width: 275px;
+        height: 275px;
+    }
+    .TamañoTitulo {
+        font-size: 20px;
+        color: $colorTerciario;
+    }
+}

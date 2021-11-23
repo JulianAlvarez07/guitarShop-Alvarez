@@ -1,0 +1,18 @@
+@import "variables";
+@mixin productos {
+    height: 450px;
+    width: 400px;
+    margin: 12px;
+}
+
+@mixin footer {
+    height: 100%;
+    width: 400px;
+    background-color: $colorPrincipal;
+    margin: 10px;
+}
+
+@mixin BordesPrincipales {
+    border: solid black 5px;
+    border-radius: 3px;
+}
